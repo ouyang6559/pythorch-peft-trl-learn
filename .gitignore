@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 教程 demo 运行产生的输出
+sft_output/
+dpo_output/
+sft_final/
+my_lora_adapter/
+dpo_merged_model/
+*.pt
+*.safetensors
+*.bin
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
