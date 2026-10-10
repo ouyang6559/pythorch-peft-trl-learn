@@ -9,6 +9,14 @@
   - 建议先 'pip install -r requirements.txt'。
 """
 
+# ============================================================
+# 环境准备：先运行这一格安装本教程所需依赖
+# Colab 每新开一个 notebook 都是全新环境，建议先跑这一格
+# 已装过的库会自动跳过，不会重复下载
+# ============================================================
+# 依赖安装（在终端执行下面这行）：pip install -q transformers datasets trl peft accelerate matplotlib
+
+
 from datasets import Dataset
 
 # 构造少量偏好数据（真实项目通常几千条起）
